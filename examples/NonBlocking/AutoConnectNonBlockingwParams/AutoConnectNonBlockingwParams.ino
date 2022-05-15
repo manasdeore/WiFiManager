@@ -11,7 +11,7 @@ void setup() {
     //wm.resetSettings();
     wm.addParameter(&custom_mqtt_server);
     wm.setConfigPortalBlocking(false);
-    wm.setSaveParamsCallback(saveParamsCallback);
+    
 
     //automatically connect using saved credentials if they exist
     //If connection fails it starts an access point with the specified name
